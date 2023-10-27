@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start-server": "ts-node ./src/server/server.ts",
+    "start-client": "ts-node ./src/clients/client.ts",
+    "dev": "nodemon ./src/Server.ts"
   },
   "keywords": [],
   "author": "",
